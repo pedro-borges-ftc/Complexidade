@@ -14,6 +14,9 @@ public class Aula08_Mochila {
 		resultado1 = mochilaFracionaria(lucro, peso, capacidade);
 		
 		System.out.println("O lucro máximo será de:" + resultado1);
+
+		// Fechar o Scanner
+        ler.close();
 	}
 	
 	

@@ -14,6 +14,9 @@ public class Aula08_TrocoInt {
 		resultado = contaMoedasTroco(cedulas,troco);
 		
 		System.out.println("A quant.de cédulas/moedas é:"+resultado);
+
+		// Fechar o Scanner
+        ler.close();
 	}
 	
 	

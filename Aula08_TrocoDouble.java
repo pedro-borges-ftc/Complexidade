@@ -16,6 +16,9 @@ public class Aula08_TrocoDouble {
 		resultado1 = contaMoedasTroco(cedulas,troco);
 		
 		//System.out.println("A quantidade de cédulas é:" + resultado1);
+
+		// Fechar o Scanner
+        ler.close();
 	}
 	
 	public static int contaMoedasTroco(double[] moedas, double troco){
