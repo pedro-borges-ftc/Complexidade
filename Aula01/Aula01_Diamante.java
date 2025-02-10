@@ -1,3 +1,4 @@
+package Aula01;
 import java.util.Scanner;
 
 public class Aula01_Diamante {
