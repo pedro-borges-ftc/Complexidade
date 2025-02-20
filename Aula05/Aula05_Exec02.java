@@ -1,3 +1,4 @@
+package Aula05;
 import java.util.Scanner;
 
 public class Aula05_Exec02 {

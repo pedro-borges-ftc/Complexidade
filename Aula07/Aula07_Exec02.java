@@ -1,3 +1,4 @@
+package Aula07;
 import java.util.Arrays;
 
 public class Aula07_Exec02 {

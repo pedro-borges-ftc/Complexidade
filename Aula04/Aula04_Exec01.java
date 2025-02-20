@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Aula04_Exec01 {
