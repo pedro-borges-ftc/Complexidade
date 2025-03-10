@@ -2,6 +2,7 @@ package Aula05;
 import java.util.Scanner;
 
 public class Aula05_Exec02 {
+	
     public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
 		int[] vetor1 = {3,7,20,25,26,28,30,34,42,44,50,60,68,75,86,99,125,145,209,250};
