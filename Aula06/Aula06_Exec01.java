@@ -5,6 +5,8 @@ public class Aula06_Exec01 {
     
     public static void main(String args[]) {
         int[] numeros = {10,18,9,25,17,32,23,45,6}; 
+
+        System.out.println("O array desordenado é: " + Arrays.toString(numeros));
       
         SelectionSort(numeros);
         
