@@ -5,11 +5,11 @@ public class Aula08_TrocoInt {
 	
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-		int[] cedulas = {200, 100, 50, 20, 10, 5, 2};//representa as c�dulas do Real
+		int[] cedulas = {200, 100, 50, 20, 10, 5, 2};//representa as cédulas do Real
 		//int[] cedulas = {6,4,1 };//representa as cédulas
 		int troco, resultado = 0;
 		
-		System.out.println("Digite o valor do troco:");
+		System.out.println("Digite o valor do troco (int):");
 		troco = ler.nextInt();
 		
 		resultado = contaMoedasTroco(cedulas,troco);
@@ -31,7 +31,7 @@ public class Aula08_TrocoInt {
 		int nQtdMoedas = 0;int i = 0;int quant = 0;//Inicialização
 		int tamanho = moedas.length;
 		//Iteração
-		while( troco > 1 && i < tamanho - 1 ){
+		while( troco > 1 && i < tamanho){
 			if( troco >= moedas[i]){
 				quant = troco / moedas[i];
 				nQtdMoedas += quant;
