@@ -8,9 +8,6 @@ public class Aula09_PesquisaRecursiva {
 			return B;
 		}
 	}
-	
-
-
 	public static int maxVal(int[] array, int ini,int fim){
 		//caso base
 		if( fim - ini <= 1){
@@ -22,16 +19,10 @@ public class Aula09_PesquisaRecursiva {
 			return max(esquerda, direita);
 		}		
 	}	
-
-
-
-
-
-
 	public static void main(String[] args) {
 		int[] vetor1 = 
-		{45,12,54,14,150,32,18,20,20,100,22,240,259900};
-				
+		{45,12,54,14,150,32,18,20,20,100,22,240,200};
+		//0, 1, 2, 3, 4,  5, 6, 7, 8, 9, 10, 11, 12		
 		System.out.println("O maior elemento é:" +
 				maxVal(vetor1,0,vetor1.length - 1));
 		
