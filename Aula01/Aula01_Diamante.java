@@ -1,4 +1,5 @@
 package Aula01;
+
 import java.util.Scanner;
 
 public class Aula01_Diamante {
@@ -21,7 +22,9 @@ public class Aula01_Diamante {
         for (int i = 0; i <= meio; i++) {
             // Espaços
             for (int j = 0; j < meio - i; j++) {
-                System.out.print(" ");
+                if(j != meio){
+                    System.out.print(" ");
+                }
             }
             // Asteriscos
             for (int j = 0; j < 2 * i + 1; j++) {
