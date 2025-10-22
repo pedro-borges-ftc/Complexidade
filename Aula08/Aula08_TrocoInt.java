@@ -20,13 +20,6 @@ public class Aula08_TrocoInt {
         ler.close();
 	}
 	
-	
-	
-	
-	
-	
-	
-	
 	public static int contaMoedasTroco(int[] moedas, int troco){
 		int nQtdMoedas = 0;int i = 0;int quant = 0;//Inicialização
 		int tamanho = moedas.length;

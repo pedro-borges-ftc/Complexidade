@@ -20,14 +20,6 @@ public class Aula08_Mochila {
         ler.close();
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
 	public static double mochilaFracionaria(double[] lucro,double[] peso, double capacidade){
 		int i = 0; double lucroTotal = 0.0;//Inicialização
 		int tamanho = lucro.length;
@@ -46,7 +38,6 @@ public class Aula08_Mochila {
 				" || Total Utilizado:" + capacidade);
 		System.out.println(" || Lucro: " + (capacidade / peso[i]) * 
 				lucro[i]);
-		return lucroTotal;
-		
+		return lucroTotal;		
 	}
 }
