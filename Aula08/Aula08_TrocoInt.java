@@ -5,7 +5,8 @@ public class Aula08_TrocoInt {
 	
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-		int[] cedulas = {200, 100, 50, 20, 10, 5, 2};//representa as cédulas do Real
+		//int[] cedulas = {200, 100, 50, 20, 10, 5, 2};//representa as cédulas do Real
+		int[] cedulas = {100, 50, 10, 5 , 1};
 		//int[] cedulas = {6,4,1 };//representa as cédulas
 		int troco, resultado = 0;
 		
@@ -14,7 +15,7 @@ public class Aula08_TrocoInt {
 		
 		resultado = contaMoedasTroco(cedulas,troco);
 		
-		System.out.println("A quant.de cédulas/moedas é:"+resultado);
+		System.out.println("A quantidade mínima de cédulas/moedas é:"+resultado);
 
 		// Fechar o Scanner
         ler.close();
