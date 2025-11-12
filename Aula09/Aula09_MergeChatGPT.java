@@ -13,8 +13,8 @@ public class Aula09_MergeChatGPT {
             System.out.println("Dividindo: " + Arrays.toString(Arrays.copyOfRange(array, inicio, fim + 1)));
 
             // Etapa de divisão (recursiva)
-            mergeSort(array, inicio, meio);
-            mergeSort(array, meio + 1, fim);
+            mergeSort(array, inicio, meio);     //esquerda
+            mergeSort(array, meio + 1, fim);    //direita
 
             // Etapa de conquista (fusão)
             merge(array, inicio, meio, fim);
